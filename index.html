@@ -3,221 +3,133 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Abby Woodward Interiors — curated shopping-list based interior decorating with clear product placement plans.">
-  <title>Abby Woodward Interiors</title>
+  <meta name="description" content="Sourced &amp; Styled Interiors, shopping-list-first interior design with product placement plans and visual layouts.">
+  <title>Sourced &amp; Styled Interiors</title>
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;700&family=Manrope:wght@400;600;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600;700&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
   <header class="top-bar">
-    <div class="brand">
-      <div class="brand-mark">AW</div>
-      <div class="brand-text">
-        <span class="brand-name">Abby Woodward</span>
-        <span class="brand-tag">Shopping-First Interior Design</span>
-      </div>
-    </div>
     <nav class="nav">
+      <a href="#about">About</a>
       <a href="#services">Services</a>
-      <a href="#process">Process</a>
-      <a href="#kits">Room Kits</a>
-      <a href="#form">Start a Project</a>
+      <a href="#packages">Design packages</a>
+      <a href="#portfolio">My designs</a>
+      <a href="#form">Project questionnaire</a>
     </nav>
   </header>
 
   <main>
-    <section class="hero">
-      <div class="hero-copy">
-        <p class="eyebrow">Curated. Clickable. Done.</p>
-        <h1>Room-ready shopping lists that place every piece for you.</h1>
-        <p class="lede">
-          I design with real products first—so you know exactly what to buy, where it goes,
-          and how it will feel together. From statement lighting to the rug that anchors it all,
-          you get a shoppable plan and layout you can implement at your own pace.
-        </p>
-        <div class="hero-actions">
-          <a class="button primary" href="#form">Start with your space</a>
-          <a class="button ghost" href="#kits">View sample room kits</a>
+    <section class="hero-cover" id="about">
+      <figure class="cover-page-frame">
+        <img src="assets/cover-photo-2.png" alt="Sourced and Styled Interiors cover page">
+      </figure>
+    </section>
+
+    <section class="portfolio-slider" id="portfolio">
+      <div class="slider-shell">
+        <div class="slider-track" data-design-track>
+          <figure class="pdf-page design-slide">
+            <img src="assets/portfolio-page-3.png" alt="Nursery design portfolio page">
+          </figure>
+          <figure class="pdf-page design-slide">
+            <img src="assets/portfolio-page-4.png" alt="Playroom design portfolio page">
+          </figure>
+          <figure class="pdf-page design-slide">
+            <img src="assets/portfolio-page-5.png" alt="Minimalistic living design portfolio page">
+          </figure>
+          <figure class="pdf-page design-slide">
+            <img src="remodels.png" alt="Remodels design portfolio page">
+          </figure>
         </div>
-        <dl class="stats">
-          <div><dt>72+</dt><dd>rooms refreshed with shoppable plans</dd></div>
-          <div><dt>3–5</dt><dd>days to receive your tailored list</dd></div>
-          <div><dt>All online</dt><dd>No on-site install required</dd></div>
-        </dl>
       </div>
-      <div class="hero-visual">
-        <div class="stage">
-          <div class="stage-backdrop"></div>
-          <div class="stage-mock">
-            <div class="stage-art"></div>
-            <div class="stage-chair"></div>
-            <div class="stage-lamp"></div>
-            <div class="stage-rug"></div>
-          </div>
-          <div class="stage-label">3D-style layout preview (sample)</div>
-        </div>
+      <div class="slider-dots" aria-hidden="true">
+        <span class="dot is-active"></span>
+        <span class="dot"></span>
+        <span class="dot"></span>
+        <span class="dot"></span>
       </div>
     </section>
 
-    <section class="pillars" id="services">
-      <h2>What you get</h2>
-      <div class="grid">
-        <article>
-          <h3>Clickable shopping list</h3>
-          <p>Curated products with direct links, price, finish notes, and stock-safe alternates.</p>
-        </article>
-        <article>
-          <h3>Placement plan</h3>
-          <p>Scaled layout showing where every piece lands, plus styling notes for shelves and surfaces.</p>
-        </article>
-        <article>
-          <h3>Room feel preview</h3>
-          <p>High-fidelity mockups to visualize your actual room using your photos and measurements.</p>
-        </article>
+    <section class="pillars section-band" id="services">
+      <figure class="services-image">
+        <img src="overview.png" alt="Services overview">
+      </figure>
+      <figure class="services-image">
+        <img src="PG3.png" alt="Services details">
+      </figure>
+      <div class="services-cta">
+        <a class="button primary" href="#form">Go to questionnaire</a>
       </div>
     </section>
 
-    <section class="process" id="process">
-      <div class="process-header">
-        <h2>The zero-stress process</h2>
-        <p>No contractors to coordinate. You purchase at your own pace with confidence.</p>
-      </div>
-      <ol class="steps">
-        <li>
-          <span class="step-num">01</span>
-          <div>
-            <h3>Share your space</h3>
-            <p>Upload room photos, measurements, and inspiration. I’ll spot lighting, flow, and storage needs.</p>
-          </div>
-        </li>
-        <li>
-          <span class="step-num">02</span>
-          <div>
-            <h3>Receive a shoppable kit</h3>
-            <p>A tailored list with direct purchase links, prioritized by impact. Budget and lead times included.</p>
-          </div>
-        </li>
-        <li>
-          <span class="step-num">03</span>
-          <div>
-            <h3>Place with confidence</h3>
-            <p>Layout map, styling tips, and optional quick video walkthrough to set each piece just right.</p>
-          </div>
-        </li>
-      </ol>
+    <section class="pricing-packages section-band" id="packages">
+      <figure class="pricing-image">
+        <img src="pricing.png" alt="Design packages pricing overview">
+      </figure>
     </section>
 
-    <section class="kits" id="kits">
-      <div class="kits-header">
-        <h2>Sample room kit</h2>
-        <p>Every kit ships with a visual layout, product links, and alternates if items sell out.</p>
-      </div>
-      <div class="kit-card">
-        <div class="kit-visual">
-          <div class="kit-room">
-            <div class="kit-rug"></div>
-            <div class="kit-sofa"></div>
-            <div class="kit-table"></div>
-            <div class="kit-art"></div>
-            <div class="kit-light"></div>
-          </div>
-          <p class="kit-caption">Living room: warm minimal, layered textures.</p>
-        </div>
-        <div class="kit-list">
-          <div class="kit-item">
-            <span class="name">Bouclé accent chair</span>
-            <span class="detail">$389 • performance fabric</span>
-            <span class="placement">Placement: angled to face window</span>
-          </div>
-          <div class="kit-item">
-            <span class="name">Oversized linen drum pendant</span>
-            <span class="detail">$249 • dimmable</span>
-            <span class="placement">Placement: centered over coffee table</span>
-          </div>
-          <div class="kit-item">
-            <span class="name">Hand-loomed jute/wool rug</span>
-            <span class="detail">$520 • 9' x 12'</span>
-            <span class="placement">Placement: front sofa legs on rug</span>
-          </div>
-          <div class="kit-item">
-            <span class="name">Slim profile media console</span>
-            <span class="detail">$699 • walnut veneer</span>
-            <span class="placement">Placement: align with wall outlet</span>
-          </div>
-          <div class="kit-item">
-            <span class="name">Gallery wall trio</span>
-            <span class="detail">$210 • framed, ready to hang</span>
-            <span class="placement">Placement: 6\" above sofa back</span>
-          </div>
-          <div class="note">Full kits include links, alternates, paint suggestions, and styling notes.</div>
-        </div>
-      </div>
-    </section>
-
-    <section class="cta">
-      <div class="cta-inner">
-        <div>
-          <h2>Ready for a shoppable plan built for your room?</h2>
-          <p>Share a few photos and goals. I’ll reply with a tailored scope and timeline within one business day.</p>
-        </div>
-        <a class="button primary" href="#form">Start your brief</a>
-      </div>
-    </section>
-
-    <section class="form-section" id="form">
-      <div class="form-copy">
+    <section class="form-section section-band" id="form">
+      <div class="section-head">
         <h2>Project intake form</h2>
-        <p>Tell me about your space and upload photos. You’ll get a confirmation and follow-up within one business day.</p>
-        <ul class="form-highlights">
-          <li>Secure uploads up to 5MB each (JPG/PNG/PDF).</li>
-          <li>Alternate links provided if items sell out.</li>
-          <li>Timeline and budget clarity before you buy.</li>
-        </ul>
       </div>
       <form class="intake-form" action="https://getform.io/f/REPLACE_WITH_YOUR_ENDPOINT" method="POST" enctype="multipart/form-data">
-        <label>
+        <label class="field-name">
           Full name
           <input type="text" name="name" placeholder="Your name" required>
         </label>
-        <label>
+        <label class="field-email">
           Email
           <input type="email" name="email" placeholder="you@example.com" required>
         </label>
-        <label>
+        <label class="field-phone">
           Phone
-          <input type="tel" name="phone" placeholder="(555) 555-5555">
+          <input type="tel" name="phone" placeholder="(555) 555-5555" required>
         </label>
-        <label>
-          Project type
-          <select name="project_type" required>
+        <label class="checkbox field-text-ok">
+          <input type="checkbox" name="text_permission" value="Yes">
+          You may text me if that’s my preferred method of communication.
+        </label>
+        <label class="field-design-space">
+          Design space
+          <select name="design_space" required>
             <option value="">Choose one</option>
+            <option>Kitchen</option>
+            <option>Dining room</option>
             <option>Living room</option>
-            <option>Bedroom</option>
+            <option>Bathroom</option>
+            <option>Kids room</option>
+            <option>Nursery</option>
+            <option>Master bedroom</option>
             <option>Office</option>
-            <option>Dining</option>
-            <option>Nursery/Kids</option>
+            <option>Playroom</option>
+            <option>Party space</option>
             <option>Other</option>
           </select>
         </label>
-        <label>
+        <label class="field-goals">
           Goals for the space
-          <textarea name="goals" rows="3" placeholder="Lighten, add storage, refresh seating…" required></textarea>
+          <textarea name="goals" rows="3" placeholder="New color scheme and decor, add furniture/organization spaces, start-to-finish room makeover…" required></textarea>
         </label>
-        <label>
-          Budget target (total)
-          <input type="text" name="budget" placeholder="$3,000 - $5,000">
+        <label class="field-budget">
+          Budget target
+          <input type="text" name="budget" placeholder="ex. 500-1000">
         </label>
-        <label>
-          Room photos / plan (up to 3 files)
+        <label class="field-goal-date">
+          Goal date (when needed by)
+          <input type="date" name="goal_date">
+        </label>
+        <label class="field-space-size">
+          Space size (only the area being restyled)
+          <input type="text" name="space_size" placeholder="ex. 12' x 14'">
+        </label>
+        <label class="field-photos">
+          Room photos / inspo pics (up to 5 files)
           <input type="file" name="files[]" accept=".jpg,.jpeg,.png,.pdf" multiple>
         </label>
-        <label class="inline">
-          <input type="checkbox" name="video_walkthrough" value="Yes">
-          I’m open to a quick video walkthrough for placement tips.
-        </label>
-        <button type="submit" class="button primary">Send my brief</button>
-        <p class="form-footnote">Files are transferred securely via Getform. Replace the endpoint above after you create your form.</p>
+        <button type="submit" class="button primary">Submit questionnaire</button>
+        <p class="form-footnote">Files are transferred securely via Getform.</p>
         <p class="form-success" hidden>Thanks! Your brief was sent. I’ll reply within one business day.</p>
       </form>
     </section>
@@ -225,18 +137,26 @@
 
   <footer class="footer">
     <div class="footer-brand">
-      <div class="brand-mark">AW</div>
       <div>
-        <div class="brand-name">Abby Woodward Interiors</div>
-        <div class="brand-tag">Shopping-first interior design</div>
+        <div class="brand-name">Sourced &amp; Styled Interiors</div>
+        <div class="brand-tag">Abigail Scott</div>
       </div>
     </div>
     <div class="footer-links">
-      <a href="mailto:hello@abbywoodward.com">hello@abbywoodward.com</a>
-      <a href="https://www.instagram.com" target="_blank" rel="noopener">Instagram</a>
-      <a href="https://www.pinterest.com" target="_blank" rel="noopener">Pinterest</a>
+      <span>Contact info:</span>
+      <a href="mailto:abbyscott_22@icloud.com">
+        <svg class="icon" viewBox="0 0 24 24" aria-hidden="true">
+          <path d="M4 6h16a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2zm0 2v.4l8 5 8-5V8H4zm16 8V10l-8 5-8-5v6h16z"></path>
+        </svg>
+        abbyscott_22@icloud.com
+      </a>
+      <span>
+        <svg class="icon" viewBox="0 0 24 24" aria-hidden="true">
+          <path d="M6.6 3.2c.5-.2 1.1 0 1.4.5l2 3.6c.2.4.2.9-.1 1.3l-1.4 2a12.6 12.6 0 0 0 5.4 5.4l2-1.4c.4-.3.9-.3 1.3-.1l3.6 2c.5.3.7.9.5 1.4l-.9 2.2c-.2.5-.7.8-1.2.7-7.3-1-13.1-6.8-14.1-14.1-.1-.5.2-1 .7-1.2l2.2-.9z"></path>
+        </svg>
+        765-822-9692
+      </span>
     </div>
-    <div class="footer-note">Based in the U.S. • Virtual projects nationwide</div>
   </footer>
 
   <script src="script.js" defer></script>
